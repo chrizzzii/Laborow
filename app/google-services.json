@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "46310109423",
+    "project_id": "laborow-53e0d",
+    "storage_bucket": "laborow-53e0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46310109423:android:8e21aaf390d0ebc17c6b1a",
+        "android_client_info": {
+          "package_name": "com.example.laborow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46310109423-4a1922k27aclbpvl7f50271ed75tb9es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN7sTnljnh7rOx_i8HIiOytC2twIDGO-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46310109423-4a1922k27aclbpvl7f50271ed75tb9es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
