@@ -12,6 +12,9 @@
         android:theme="@style/Theme.LoginSignupAuth"
         tools:targetApi="31">
         <activity
+            android:name=".Calendar"
+            android:exported="false" />
+        <activity
             android:name=".CariAsprak"
             android:exported="false" />
         <activity

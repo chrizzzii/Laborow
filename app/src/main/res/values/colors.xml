@@ -12,5 +12,5 @@
     <color name="textColor">#ECE5EC</color>
     <color name="pinkColor">#FF003B</color>
     <color name="tansparentColor">#00FFFFFF</color>
-
+    <color name="statusbarColor">#1fb598</color>
 </resources>

@@ -30,6 +30,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(cariAsprakIntent)
         }
 
+        binding.kalender.setOnClickListener {
+            val calendarIntent = Intent(this, Calendar::class.java)
+            startActivity(calendarIntent)
+        }
 
         binding.logout.setOnClickListener {
             val logoutIntent = Intent(this, LoginActivity::class.java)
