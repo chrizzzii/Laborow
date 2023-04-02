@@ -38,9 +38,9 @@ class SignupActivity : AppCompatActivity() {
                 binding.signupPassword.text?.clear()
                 binding.userNameTextEt.text?.clear()
 
-                Toast.makeText(this,"Successfully Saved ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Signup berhasil!", Toast.LENGTH_SHORT).show()
             }.addOnFailureListener{
-                Toast.makeText(this,"Failed ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Signup gagal! ", Toast.LENGTH_SHORT).show()
             }
 
 
