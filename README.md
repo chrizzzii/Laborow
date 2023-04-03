@@ -5,7 +5,7 @@
 ## Description
 Laborow adalah aplikasi yang digunakan oleh mahasiswa khususnya Teknik Komputer Universitas Diponegoro sebagai solusi dari masalah manajemen berbagai praktikum yang dilaksanakan dalam satu waktu namun di aplikasi ini dapat diatur dalam 1 tempat dan dapat melihat berbagai informasi lainnya mengenai praktikum.
 
-<p><img  src="https://ibb.co/NmPRSnF"/></p>
+<a href="https://ibb.co/NmPRSnF"> <img src="https://i.ibb.co/QCR0djJ/mockup-laborow.png" alt="mockup-laborow" border="0" /> </a> 
 
 ## Main Features
 
