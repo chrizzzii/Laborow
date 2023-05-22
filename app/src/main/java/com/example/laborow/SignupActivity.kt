@@ -1,12 +1,11 @@
 package com.example.laborow
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.laborow.databinding.ActivitySignupBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.example.laborow.databinding.ActivityMainBinding
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
@@ -22,7 +21,7 @@ class SignupActivity : AppCompatActivity() {
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
         firebaseAuth = FirebaseAuth.getInstance()
-        binding.signupButton.setOnClickListener {
+        binding.daftarasprak.setOnClickListener {
             val firstName=binding.userNameTextEt.text.toString()
             val  lastname=binding.lastNameTextEt.text.toString()
             val  email=binding.signupEmail.text.toString()
@@ -45,9 +44,9 @@ class SignupActivity : AppCompatActivity() {
 
 
         }
-        binding.loginRedirectText.setOnClickListener {
-            val loginIntent = Intent(this, LoginActivity::class.java)
-            startActivity(loginIntent)
+        binding.daftarpraktikan.setOnClickListener {
+            val daftarpraktikan = Intent(this, Daftarakun::class.java)
+            startActivity(daftarpraktikan)
         }
         binding.loginRedirectTextbutton.setOnClickListener {
             val loginIntent = Intent(this, LoginActivity::class.java)

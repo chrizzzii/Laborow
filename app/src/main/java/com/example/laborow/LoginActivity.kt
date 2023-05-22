@@ -1,16 +1,14 @@
 package com.example.laborow
 
-import android.content.Context
 import android.content.Intent
-import android.content.SharedPreferences
 import android.graphics.drawable.ColorDrawable
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.example.laborow.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -61,7 +59,7 @@ class LoginActivity : AppCompatActivity() {
             dialog.show()
         }
         binding.signupRedirectText.setOnClickListener {
-            val signupIntent = Intent(this, SignupActivity::class.java)
+            val signupIntent = Intent(this, Daftarakun::class.java)
             startActivity(signupIntent)
         }
     }
