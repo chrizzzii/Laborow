@@ -36,6 +36,4 @@ Laborow adalah aplikasi yang digunakan oleh mahasiswa khususnya Teknik Komputer 
   
 ## Credit
 
-Agustinus Adven Christo – [@advenchristo](https://www.instagram.com/advenchristo/) – clvtito@gmail.com
-
-[https://github.com/chrizzzii](https://github.com/chrizzzii)  
+Agustinus Adven Christo – [chrizzzii](https://github.com/chrizzzii)
